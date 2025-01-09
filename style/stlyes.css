@@ -1,0 +1,360 @@
+.open-sans {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Nav section css */
+
+
+.nav_name {
+    font-size: 45px;
+    font-weight: 800px;
+}
+
+.nav_r {
+    color: rgb(253, 110, 10);
+}
+
+.nav_list {
+    font-size: 20px;
+    font-weight: 400px;
+    color: rgb(71, 71, 71);
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li {
+    list-style: none;
+
+}
+
+
+.nav_btn {
+    font-size: 20px;
+    font-weight: 700px;
+    border-radius: 5px;
+    border: none;
+    background: rgb(253, 110, 10);
+    width: 144px;
+    height: 61px;
+
+}
+
+.nav_b {
+    color: white;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 216px 0px 220px;
+    padding-top: 50px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+/* nav container section css */
+
+.intro {
+    font-size: 37px;
+    font-weight: 600px;
+    color: rgb(71, 71, 71);
+    margin-bottom: 5px;
+
+}
+
+.intro_name {
+    font-size: 75px;
+    font-weight: 700px;
+    margin-bottom: 20px;
+
+}
+
+.intro_description {
+    font-size: 16px;
+    font-weight: 40px;
+    color: rgb(117, 117, 117);
+    margin-bottom: 28px;
+}
+
+.title_nav {
+    font-size: 20px;
+    font-weight: 700px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+
+    background: rgb(253, 110, 10);
+    width: 200px;
+    height: 64px;
+    border: none;
+    list-style: none;
+    margin-right: 10px;
+
+}
+
+.title_nav1 {
+    width: 160px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: bold;
+    box-sizing: border-box;
+    border: 2px solid rgb(253, 110, 10);
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(253, 110, 10);
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-left: 220px;
+
+}
+
+.intro_container {
+    width: 585px;
+    height: 356px;
+}
+
+header {
+    background-image: url(../images/developer.png), url(..//images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+    margin-top: 37px;
+    margin-left: 23px;
+
+}
+
+.head2 {
+    height: 787px;
+}
+
+
+
+
+/* main section css */
+main {
+    margin-top: 128px;
+}
+
+.introduction {
+    width: 710px;
+    height: 200px;
+
+
+    border-radius: 10px;
+    background: rgb(255, 248, 243);
+    text-align: center;
+    margin: auto;
+    padding: 130px 157px;
+}
+
+.about {
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.main_Description {
+    margin: 30px 0px;
+    font-size: 16px;
+    font-weight: 400px;
+    color: rgb(117, 117, 117);
+}
+
+.information {
+    display: flex;
+    justify-content: space-around;
+    font-size: 17px;
+    font-weight: 700px;
+    color: rgb(117, 117, 117);
+
+}
+
+.container_middle {
+
+    border: 2px solid rgb(117, 117, 117);
+    background: rgb(255, 255, 255);
+    border-radius: 3px 7px;
+    padding: 1px;
+}
+
+/* skill */
+.skill {
+    margin-top: 30px;
+
+}
+
+.skill_part_1 {
+    text-align: center;
+}
+
+.what {
+    font-size: 35px;
+    font-weight: 700px;
+}
+
+.skill_description1 {
+    font-size: 16px;
+    font-weight: 400px;
+    color: rgb(117, 117, 117);
+
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.skills_item {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.skill_item {
+    width: 210px;
+    height: 250px;
+    padding: 20px;
+
+    border-radius: 7px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+
+}
+
+.skill_description2 {
+
+    color: rgb(117, 117, 117);
+
+}
+
+.title_skill {
+    font-size: 18px;
+    font-weight: 700px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* resume */
+.resume_title {
+    font-size: 35px;
+    font-weight: 700px;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.Master_ {
+    margin-top: 20px;
+
+    width: 500px;
+}
+
+.edu_title {
+    font-size: 28px;
+    font-weight: 700px;
+    color: rgb(71, 71, 71);
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: 700px;
+    color: rgb(71, 71, 71);
+    margin-bottom: 10px;
+}
+
+.subtitle2 {
+    font-size: 15px;
+    font-weight: 600px;
+    color: rgb(117, 117, 117);
+    margin-bottom: 18px;
+}
+
+.edu_des {
+    font-size: 15px;
+    font-weight: 400px;
+    color: rgb(117, 117, 117);
+    margin-bottom: 20px;
+}
+
+.edex {
+    display: flex;
+    justify-content: center;
+}
+
+.education {
+    margin-right: 15px;
+}
+
+.resume_btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+/* footer */
+.last_section {
+    background-color: rgb(255, 248, 243);
+    margin-top: 100px;
+    padding: 130px 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.let {
+    font-size: 27px;
+    font-weight: 700px;
+    margin-bottom: 18px;
+}
+
+.footer_des {
+    font-size: 15px;
+    font-weight: 400px;
+    color: rgb(71, 71, 71);
+    margin-bottom: 28px;
+}
+
+.input_f {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.input_ujjal {
+    padding-left: 30px;
+    width: 461px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+
+
+}
+
+.message2 {
+    padding-left: 30px;
+    padding-top: 18px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400px;
+}
